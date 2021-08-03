@@ -1,0 +1,47 @@
+body {
+    background-color: #f8000071;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arial";
+    font-weight: bold;
+    text-align: center; 
+    text-shadow: 10px 10px 5px #000000;
+}
+
+#Api {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.button {
+    background-color: #f8000071;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 9px #999
+
+}
+
+.button:hover {
+    background-color: #f8000071;
+}
+
+.button:active {
+    background-color: #f8000071;
+    box-shadow: 0px 0px 5px #000000;
+    transform: translateY(5px);
+}
